@@ -1,0 +1,19 @@
+.header-container {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.wrapper h1 {
+    font-size: 24px;
+    margin: auto;
+}
+
+.wrapper p {
+    margin: auto;
+}

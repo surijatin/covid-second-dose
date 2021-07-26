@@ -1,0 +1,25 @@
+input[type="radio"]{
+    margin: 0px 15px 0px 20px;
+    opacity: 0px;
+    width: 0px;
+}
+
+.label {
+    background-color: rgba(255, 255, 255, 0.25);
+    border: 0px;
+    border-radius: 10px;
+    font-size: 35px;
+    padding: 10px 20px;
+}
+
+.label:hover {
+    background: #ecf0f2;
+    color: #3c91e7;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+    background: #ecf0f2;
+    border: 3px solid #3c91e7;
+    color: #3c91e7;
+}

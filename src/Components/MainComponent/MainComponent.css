@@ -1,0 +1,32 @@
+
+.main-container {
+    background: linear-gradient(130deg, #3c91e7 0, #78378c 100%);
+    color: white;
+    padding: 2%;
+}
+
+.main-wrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper h1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.main-wrapper p {
+    font-size: 25px;
+    margin: 0 0 20px 0;
+}
+
+.main-wrapper .date-picker {
+    margin-top: 50px;
+}
+
+.date-picker-class {
+    background-color: white;
+    color: black;
+    height: 50px;
+}
