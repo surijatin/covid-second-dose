@@ -21,13 +21,13 @@ function MainComponent() {
     const onBtnClick = () => {
         const copyDate = new Date(firstDate.getTime());
         let gapDays;
-        switch(vaccine) {
+        switch (vaccine) {
             case 'covishield':
                 gapDays = 84;
-            break;
+                break;
             case 'covaxin':
                 gapDays = 28;
-            break;
+                break;
             default:
                 gapDays = 0;
                 break;
@@ -44,7 +44,7 @@ function MainComponent() {
                     <h1>
                         Get your COVID second jab due date.
                     </h1>
-                    <div>
+                    <div className="cont-box">
                         <RadioButton
                             name="vaccine"
                             id="covishield"
@@ -86,8 +86,8 @@ function MainComponent() {
                         />
                     </div>
                     {
-                        isCalculateBtnClicked && 
-                        <MessageDisplay 
+                        isCalculateBtnClicked &&
+                        <MessageDisplay
                             date={secondDate}
                         />
                     }

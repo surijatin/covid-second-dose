@@ -30,3 +30,10 @@
     color: black;
     height: 50px;
 }
+
+@media(max-width:560px) {
+    .cont-box {
+        display: flex;
+        flex-direction: column;
+    }
+}
