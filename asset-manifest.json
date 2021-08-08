@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/covid-second-dose/static/css/main.9280341a.chunk.css",
-    "main.js": "/covid-second-dose/static/js/main.49905eb1.chunk.js",
-    "main.js.map": "/covid-second-dose/static/js/main.49905eb1.chunk.js.map",
+    "main.css": "/covid-second-dose/static/css/main.1601de6b.chunk.css",
+    "main.js": "/covid-second-dose/static/js/main.355e05e4.chunk.js",
+    "main.js.map": "/covid-second-dose/static/js/main.355e05e4.chunk.js.map",
     "runtime-main.js": "/covid-second-dose/static/js/runtime-main.41f30237.js",
     "runtime-main.js.map": "/covid-second-dose/static/js/runtime-main.41f30237.js.map",
     "static/css/2.9c6b934b.chunk.css": "/covid-second-dose/static/css/2.9c6b934b.chunk.css",
@@ -10,14 +10,14 @@
     "static/js/2.3aa4ea47.chunk.js.map": "/covid-second-dose/static/js/2.3aa4ea47.chunk.js.map",
     "index.html": "/covid-second-dose/index.html",
     "static/css/2.9c6b934b.chunk.css.map": "/covid-second-dose/static/css/2.9c6b934b.chunk.css.map",
-    "static/css/main.9280341a.chunk.css.map": "/covid-second-dose/static/css/main.9280341a.chunk.css.map",
+    "static/css/main.1601de6b.chunk.css.map": "/covid-second-dose/static/css/main.1601de6b.chunk.css.map",
     "static/js/2.3aa4ea47.chunk.js.LICENSE.txt": "/covid-second-dose/static/js/2.3aa4ea47.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.41f30237.js",
     "static/css/2.9c6b934b.chunk.css",
     "static/js/2.3aa4ea47.chunk.js",
-    "static/css/main.9280341a.chunk.css",
-    "static/js/main.49905eb1.chunk.js"
+    "static/css/main.1601de6b.chunk.css",
+    "static/js/main.355e05e4.chunk.js"
   ]
 }
