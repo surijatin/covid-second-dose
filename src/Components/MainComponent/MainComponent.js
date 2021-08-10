@@ -26,7 +26,11 @@ function MainComponent() {
                 gapDays = 84;
                 break;
             case 'covaxin':
+            case 'moderna':
                 gapDays = 28;
+                break;
+            case 'sputnik':
+                gapDays = 21;
                 break;
             default:
                 gapDays = 0;
@@ -58,6 +62,20 @@ function MainComponent() {
                             labelName="COVAXIN"
                             onChange={onRadioButtonChange}
                             checked={vaccine === "covaxin"}
+                        />
+                        <RadioButton
+                            name="vaccine"
+                            id="sputnik"
+                            labelName="Sputnik V"
+                            onChange={onRadioButtonChange}
+                            checked={vaccine === "sputnik"}
+                        />
+                        <RadioButton
+                            name="vaccine"
+                            id="moderna"
+                            labelName="Moderna"
+                            onChange={onRadioButtonChange}
+                            checked={vaccine === "moderna"}
                         />
                     </div>
                     <div className="date-picker">
