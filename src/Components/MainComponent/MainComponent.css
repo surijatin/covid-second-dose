@@ -1,8 +1,9 @@
 
 .main-container {
     background: linear-gradient(130deg, #3c91e7 0, #78378c 100%);
-    color: white;
-    padding: 2%;
+    color: #fff;
+    padding: 2vh 2vh 2vh 2vh;
+    height: calc(100vh - 10vh);
 }
 
 .main-wrapper {
