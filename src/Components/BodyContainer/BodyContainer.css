@@ -4,6 +4,7 @@
     color: #fff;
     padding: 2vh 2vh 2vh 2vh;
     height: calc(100vh - 10vh);
+    overflow: auto;
 }
 
 .main-wrapper {

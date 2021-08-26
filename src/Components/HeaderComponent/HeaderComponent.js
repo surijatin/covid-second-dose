@@ -6,7 +6,7 @@ function HeaderComponent() {
             <div className="header-container">
                 <div className="wrapper">
                     <h1>
-                        COVID SECOND DOSE CALCULATOR
+                        COVID-19 SECOND DOSE CALCULATOR
                     </h1>
                     <p>Made by Jatin Suri</p>
                 </div>

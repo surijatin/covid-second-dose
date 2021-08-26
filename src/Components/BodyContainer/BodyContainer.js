@@ -3,14 +3,38 @@ import DatePicker from 'react-date-picker';
 import RadioButton from '../RadioButtonComponent/RadioButton';
 import ButtonComponent from '../ButtonComponent/ButtonComponent';
 import MessageDisplay from '../MessageDisplayComponent/MessageDisplay';
-import './MainComponent.css';
+import './BodyContainer.css';
 
 
-function MainComponent() {
+function BodyContainer() {
     const [firstDate, onChange] = useState(new Date());
     const [vaccine, setVaccine] = useState('covishield');
     const [isCalculateBtnClicked, setFlag] = useState(false);
     const [secondDate, setSecondDate] = useState('');
+    // const [vaccineRateData, setVaccineData] = useState({});
+
+    // useEffect(() => {
+    //     axios.get('https://api.covid19india.org/v4/min/data.min.json')
+    //         .then(
+    //             (result) => {
+    //                 console.log(result.data);
+
+    //                 // const finalData = [];
+    //                 // result.data.data.forEach((arr) => {
+    //                 //     const obj = {};
+    //                 //     arr.forEach((item, index) => {
+    //                 //         obj[result.data.columns[index]] = item;
+    //                 //     });
+    //                 //     finalData.push(obj);
+    //                 // });
+    //                 // console.log(finalData);
+    //                 // setVaccineData(result.data.data);
+    //             },
+    //             (error) => {
+    //                 console.log(error);
+    //             }
+    //         )
+    // }, []);
 
     const onRadioButtonChange = (e) => {
         const { target: { id } } = e;
@@ -115,4 +139,4 @@ function MainComponent() {
     );
 }
 
-export default MainComponent;
+export default BodyContainer;
